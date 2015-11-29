@@ -1,0 +1,12 @@
+{
+    "require": {
+        "codeigniter/framework": "^3.0",
+        "components/bootstrap": "^3.3",
+        "components/jquery": "*",
+        "robloach/component-installer": "^0.2.3",
+        "components/jqueryui": "^1.11"
+    },
+    "config": {
+        "component-dir": "public/components"
+    }
+}
