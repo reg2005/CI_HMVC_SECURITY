@@ -76,8 +76,8 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => '127.0.0.1',
-	'username' => 'engineUser',
-	'password' => 'WriFrocDufNafdundEbrofAjA',
+	'username' => '',
+	'password' => '',
 	'database' => 'ci_database',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -94,11 +94,3 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
- 
-if($_SERVER['HTTP_HOST'] == 'crmci.test')
-{
-	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'reg2005';
-	$db['default']['password'] = 'Ghf2004002';
-	$db['default']['database'] = 'ndvci';
-}
