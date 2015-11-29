@@ -3,6 +3,7 @@ This is my version assembly Codeigniter and HMVC extension. My package used Comp
 Package have components:
 <ul>
   <li>Codeigniter</li>
+  <li>HMVC extension (for module structure)</li>
   <li>Bootstrap</li>
   <li>Jquery</li>
   <li>JqueryUI</li>
