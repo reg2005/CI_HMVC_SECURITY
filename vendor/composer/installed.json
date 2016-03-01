@@ -1,58 +1,27 @@
 [
     {
-        "name": "codeigniter/framework",
-        "version": "3.0.3",
-        "version_normalized": "3.0.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/bcit-ci/CodeIgniter.git",
-            "reference": "e7f0e7aa3d48778b5ad926eda14c825f62f421eb"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/e7f0e7aa3d48778b5ad926eda14c825f62f421eb",
-            "reference": "e7f0e7aa3d48778b5ad926eda14c825f62f421eb",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.4"
-        },
-        "require-dev": {
-            "mikey179/vfsstream": "1.1.*"
-        },
-        "time": "2015-10-31 17:37:24",
-        "type": "project",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "description": "The CodeIgniter framework",
-        "homepage": "http://codeigniter.com"
-    },
-    {
         "name": "symfony/process",
-        "version": "v2.7.7",
-        "version_normalized": "2.7.7.0",
+        "version": "v2.8.3",
+        "version_normalized": "2.8.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/process.git",
-            "reference": "f6290983c8725d0afa29bdc3e5295879de3e58f5"
+            "reference": "7dedd5b60550f33dca16dd7e94ef8aca8b67bbfe"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/process/zipball/f6290983c8725d0afa29bdc3e5295879de3e58f5",
-            "reference": "f6290983c8725d0afa29bdc3e5295879de3e58f5",
+            "url": "https://api.github.com/repos/symfony/process/zipball/7dedd5b60550f33dca16dd7e94ef8aca8b67bbfe",
+            "reference": "7dedd5b60550f33dca16dd7e94ef8aca8b67bbfe",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.9"
         },
-        "time": "2015-11-19 16:11:24",
+        "time": "2016-02-02 13:33:15",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.7-dev"
+                "dev-master": "2.8-dev"
             }
         },
         "installation-source": "dist",
@@ -211,21 +180,52 @@
         "description": "Allows installation of Components via Composer."
     },
     {
-        "name": "components/jquery",
-        "version": "2.1.4",
-        "version_normalized": "2.1.4.0",
+        "name": "codeigniter/framework",
+        "version": "3.0.4",
+        "version_normalized": "3.0.4.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/components/jquery.git",
-            "reference": "7b1d1104656a092423fbfba13c5920e9bbba290c"
+            "url": "https://github.com/bcit-ci/CodeIgniter.git",
+            "reference": "ac067858c21250dd8c60cdc1f9bc12ba2ff82755"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/components/jquery/zipball/7b1d1104656a092423fbfba13c5920e9bbba290c",
-            "reference": "7b1d1104656a092423fbfba13c5920e9bbba290c",
+            "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/ac067858c21250dd8c60cdc1f9bc12ba2ff82755",
+            "reference": "ac067858c21250dd8c60cdc1f9bc12ba2ff82755",
             "shasum": ""
         },
-        "time": "2015-05-08 05:04:47",
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "require-dev": {
+            "mikey179/vfsstream": "1.1.*"
+        },
+        "time": "2016-01-13 00:09:27",
+        "type": "project",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "The CodeIgniter framework",
+        "homepage": "https://codeigniter.com"
+    },
+    {
+        "name": "components/jquery",
+        "version": "2.2.1",
+        "version_normalized": "2.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jquery.git",
+            "reference": "7894addbce3c4de6f82449610e6f8e168b49e9b0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jquery/zipball/7894addbce3c4de6f82449610e6f8e168b49e9b0",
+            "reference": "7894addbce3c4de6f82449610e6f8e168b49e9b0",
+            "shasum": ""
+        },
+        "time": "2016-02-24 08:16:25",
         "type": "component",
         "extra": {
             "component": {

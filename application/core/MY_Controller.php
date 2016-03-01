@@ -6,11 +6,13 @@ class MY_Controller extends MX_Controller {
 
 		parent::__construct();
 		$this->data = [];
-		$this->load->model('core_model', 'core', 'my_ion_auth_model');
+		$this->load->config('site');
+		$this->load->model('core_model', 'core');
+		$this->load->library('parser');
 
-		$this->data = array_merge( $this->core->set_headers(), $this->core->init_url() );
+		//$this->data = array_merge( $this->core->set_headers(), $this->core->init_url() );
 
-		$this->_auth_data();
+		//$this->_auth_data();
 
 		$profile = (ENVIRONMENT == 'development') ? TRUE : FALSE;
 

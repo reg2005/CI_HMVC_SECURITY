@@ -28,27 +28,27 @@
 
 class Core_model extends CI_Model
 {
-	
+
 
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->database();
-		
+		//$this->load->database();
+
 	}
 
 	function set_headers(){
 		$data['referal'] = ( isset($_SERVER['HTTP_REFERER']) ) ? parse_url($_SERVER['HTTP_REFERER']) : NULL ;
 		$data['domain'] = $_SERVER['HTTP_HOST'];
-		
 
-		
+
+
 		if(ENVIRONMENT == 'production'){
 			$this->output
 				->set_content_type('application/json')
 				->set_header('Access-Control-Allow-Origin: *');
 		}else{
-			
+
 			if( isset($data['domain']) AND isset($data['referal']['host']) AND $data['domain'] != $data['referal']['host'] ){
 				$this->output
 				->set_header('Access-Control-Allow-Origin: '.$data['referal']['scheme']. "://" .$data['referal']['host']);
@@ -64,25 +64,25 @@ class Core_model extends CI_Model
         }
         return $data;
 	}
-	
+
 	function init_url(){
-		
+
 		$i = ( $this->uri->segment(1) == 'dev') ? 2 : 1;
 		$c = 1;
-		
+
 		for(; $i <= 6; $i++){
-			$data['segment'][$c] = 
+			$data['segment'][$c] =
 				$this->security->xss_clean(
 					$this->uri->segment($i)
 				);
 			//Для правильной работы необходимо как минимум 3 сегмента, даже если они пустые!
-				
+
 			$c++;
 		}
 
 		$data['segment']['total'] = $c;
-		
-		return $data;		
+
+		return $data;
 	}
 
 }
