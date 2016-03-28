@@ -90,8 +90,6 @@ switch (ENVIRONMENT)
 		exit(1); // EXIT_ERROR
 }
 
-	define('BASIC_FOLDER', realpath('../') );
-
 /*
  *---------------------------------------------------------------
  * SYSTEM FOLDER NAME
@@ -101,7 +99,7 @@ switch (ENVIRONMENT)
  * Include the path if the folder is not in the same directory
  * as this file.
  */
-	$system_path = BASIC_FOLDER.'/vendor/codeigniter/framework/system';
+	$system_path = '../vendor/codeigniter/framework/system';
 
 /*
  *---------------------------------------------------------------
@@ -116,7 +114,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = BASIC_FOLDER.'/application';
+	$application_folder = '../application';
 
 /*
  *---------------------------------------------------------------
