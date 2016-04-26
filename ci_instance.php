@@ -68,10 +68,11 @@ $GLOBALS['CFG'] = & load_class('Config', 'core');
 $GLOBALS['UNI'] = & load_class('Utf8', 'core');
 $GLOBALS['SEC'] = & load_class('Security', 'core');
 
-load_class('Loader', 'core');
+load_class('Lang', 'core');
+//load_class('Loader', 'core');
 load_class('Router', 'core');
 load_class('Input', 'core');
-load_class('Lang', 'core');
+
 
 require(BASEPATH . 'core/Controller.php');
 
