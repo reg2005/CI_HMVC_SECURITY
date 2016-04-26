@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/';
+$config['base_url'] = (isset($_SERVER['HTTP_HOST']) ) ? 'http://'.$_SERVER['HTTP_HOST'].'/' : '';
 
 /*
 |--------------------------------------------------------------------------
@@ -393,7 +393,7 @@ $config['sess_regenerate_destroy'] = FALSE;
 |
 */
 $config['cookie_prefix']	= 'pre_';
-$config['cookie_domain']	= $_SERVER['HTTP_HOST'];
+$config['cookie_domain']	= $config['base_url'];
 $config['cookie_path']		= '/';
 $config['cookie_secure']	= FALSE;
 $config['cookie_httponly'] 	= FALSE;
