@@ -10,7 +10,9 @@
         "robloach/component-installer": "^0.2.3",
         "components/jqueryui": "^1.11",
         "nesbot/carbon": "^1.21",
-        "raveren/kint": "^1.0"
+        "raveren/kint": "^1.0",
+        "symfony/console": "^3.0",
+        "kenjis/codeigniter-cli": "^0.1.0"
     },
     "config": {
         "component-dir": "public/components"
@@ -23,6 +25,7 @@
     {
         "classmap":
         [
+            "Commands",
             "application/models"
         ]
     }

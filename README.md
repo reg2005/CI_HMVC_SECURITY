@@ -5,6 +5,9 @@ Package have components:
   <li>Codeigniter</li>
   <li>HMVC extension (for module structure)</li>
   <li>Bootstrap</li>
+  <li>Smarty Parser</li>
+  <li>Beutiful debug helper d([]) by raveren/kint</li>
+  <li>Eloquent ORM</li>
   <li>Jquery</li>
   <li>JqueryUI</li>
 </ul>
