@@ -10,6 +10,10 @@ class Example extends MY_Controller {
 
 	public function index($method = null)
 	{
+
+		$this->load->model('Orm_model');
+		$foos = Orm_model::all();
+
 		$data['content'] = '';
 		echo $this->render('formbuilder/index', $data);
 	}

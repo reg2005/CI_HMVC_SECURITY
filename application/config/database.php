@@ -1,5 +1,4 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -76,9 +75,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => '127.0.0.1',
-	'username' => '',
-	'password' => '',
-	'database' => 'ci_database',
+	'username' => 'homestead',
+	'password' => 'secret',
+	'database' => 'homestead',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -94,3 +93,25 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+//Eloquent ORM
+
+use Illuminate\Database\Capsule\Manager as Capsule;
+
+$capsule = new Capsule;
+
+$capsule->addConnection(array(
+	'driver'    => 'mysql',
+	'host'      => $db['default']['hostname'],
+	'database'  => $db['default']['database'],
+	'username'  => $db['default']['username'],
+	'password'  => $db['default']['password'],
+	'charset'   => 'utf8',
+	'collation' => 'utf8_unicode_ci',
+	'prefix'    => $db['default']['dbprefix'],
+));
+
+$capsule->setAsGlobal();
+
+
+$capsule->bootEloquent();

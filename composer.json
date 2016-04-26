@@ -1,13 +1,29 @@
 {
+    "description" : "The HMVC sceleton based on CodeIgniter framework",
+    "license": "MIT",
     "require": {
         "codeigniter/framework": "^3.0",
+        "php": ">=5.2.4",
+        "illuminate/database": "5.0.28",
         "components/bootstrap": "^3.3",
         "components/jquery": "*",
         "robloach/component-installer": "^0.2.3",
         "components/jqueryui": "^1.11",
-        "nesbot/carbon": "^1.21"
+        "nesbot/carbon": "^1.21",
+        "raveren/kint": "^1.0"
     },
     "config": {
         "component-dir": "public/components"
+    },
+    "require-dev":
+    {
+        "mikey179/vfsStream": "1.1.*"
+    },
+    "autoload":
+    {
+        "classmap":
+        [
+            "application/models"
+        ]
     }
 }
