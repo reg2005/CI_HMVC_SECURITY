@@ -1,0 +1,17 @@
+{
+    "require": {
+        "codeigniter/framework": "^3.0",
+        "components/bootstrap": "^3.3",
+        "components/jquery": "*",
+        "robloach/component-installer": "^0.2.3",
+<<<<<<< HEAD
+        "components/jqueryui": "^1.11",
+        "nesbot/carbon": "^1.21"
+=======
+        "components/jqueryui": "^1.11"
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
+    },
+    "config": {
+        "component-dir": "public/components"
+    }
+}

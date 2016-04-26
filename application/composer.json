@@ -1,0 +1,8 @@
+{
+    "config": {
+        "vendor-dir": "third_party"
+    },
+    "require": {
+        "smarty/smarty": "^3.1"
+    }
+}
