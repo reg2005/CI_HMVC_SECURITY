@@ -136,11 +136,9 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-<<<<<<< HEAD
+
 $config['composer_autoload'] = __DIR__.'/../../vendor/autoload.php';
-=======
-$config['composer_autoload'] = BASIC_FOLDER.'/vendor/autoload.php';
->>>>>>> b68332d709b6076b5582085ea9498924776bacbb
+
 
 /*
 |--------------------------------------------------------------------------

@@ -5,8 +5,12 @@
         "components/jquery": "*",
         "robloach/component-installer": "^0.2.3",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "components/jqueryui": "^1.11",
         "nesbot/carbon": "^1.21"
+=======
+        "components/jqueryui": "^1.11"
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
 =======
         "components/jqueryui": "^1.11"
 >>>>>>> b68332d709b6076b5582085ea9498924776bacbb

@@ -22,11 +22,8 @@ class Example extends MY_Controller {
 
 		$data['content'] = $this->parser->parse($view, $data, TRUE);
 
-<<<<<<< HEAD
 		return $this->parser->parse('sceleton', $data, TRUE);
-=======
-		return $this->parser->parse('sceleton', [], TRUE);
->>>>>>> b68332d709b6076b5582085ea9498924776bacbb
+
 	}
 
 }

@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "hash": "78fd60f5b3ac033e88156e96c880cf3c",
     "content-hash": "d7f7ea05527f3c5b48786faf3d4e98ff",
     "packages": [
@@ -21,6 +22,8 @@
                 "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/8082544c5b4b33175790f505587e202e3ca9e488",
                 "reference": "8082544c5b4b33175790f505587e202e3ca9e488",
 =======
+=======
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
     "hash": "e606d2747ef3306d3676c3b7dda7534f",
     "content-hash": "deadc9aefbd5f36dbc8574d585675291",
     "packages": [
@@ -36,6 +39,9 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/ac067858c21250dd8c60cdc1f9bc12ba2ff82755",
                 "reference": "ac067858c21250dd8c60cdc1f9bc12ba2ff82755",
+<<<<<<< HEAD
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
+=======
 >>>>>>> b68332d709b6076b5582085ea9498924776bacbb
                 "shasum": ""
             },
@@ -46,9 +52,12 @@
                 "mikey179/vfsstream": "1.1.*"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             "suggest": {
                 "paragonie/random_compat": "Provides better randomness in PHP 5.x"
             },
+=======
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
 =======
 >>>>>>> b68332d709b6076b5582085ea9498924776bacbb
             "type": "project",
@@ -59,7 +68,11 @@
             "description": "The CodeIgniter framework",
             "homepage": "https://codeigniter.com",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2016-03-21 16:26:30"
+=======
+            "time": "2016-01-13 00:09:27"
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
 =======
             "time": "2016-01-13 00:09:27"
 >>>>>>> b68332d709b6076b5582085ea9498924776bacbb
@@ -338,6 +351,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "nesbot/carbon",
             "version": "1.21.0",
             "source": {
@@ -385,6 +399,8 @@
             "time": "2015-11-04 20:07:17"
         },
         {
+=======
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
 =======
 >>>>>>> b68332d709b6076b5582085ea9498924776bacbb
             "name": "robloach/component-installer",
@@ -435,6 +451,7 @@
             "time": "2015-08-10 12:35:38"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "symfony/polyfill-mbstring",
             "version": "v1.1.1",
@@ -511,6 +528,8 @@
             "require": {
                 "php": ">=5.5.9"
 =======
+=======
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
             "name": "symfony/process",
             "version": "v2.8.3",
             "source": {
@@ -526,13 +545,20 @@
             },
             "require": {
                 "php": ">=5.3.9"
+<<<<<<< HEAD
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
+=======
 >>>>>>> b68332d709b6076b5582085ea9498924776bacbb
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-master": "3.0-dev"
+=======
+                    "dev-master": "2.8-dev"
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
 =======
                     "dev-master": "2.8-dev"
 >>>>>>> b68332d709b6076b5582085ea9498924776bacbb
@@ -562,6 +588,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
 <<<<<<< HEAD
             "time": "2016-03-30 10:41:14"
         },
@@ -628,6 +655,9 @@
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
             "time": "2016-03-25 01:41:20"
+=======
+            "time": "2016-02-02 13:33:15"
+>>>>>>> b68332d709b6076b5582085ea9498924776bacbb
 =======
             "time": "2016-02-02 13:33:15"
 >>>>>>> b68332d709b6076b5582085ea9498924776bacbb

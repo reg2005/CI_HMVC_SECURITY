@@ -3,7 +3,6 @@
 /* load the MX_Loader class */
 require APPPATH."third_party/MX/Loader.php";
 
-<<<<<<< HEAD
 class MY_Loader extends MX_Loader {
 
 	 protected $_ci_events_paths = array();
@@ -216,6 +215,3 @@ class MY_Loader extends MX_Loader {
         }
     }
 }
-=======
-class MY_Loader extends MX_Loader {}
->>>>>>> b68332d709b6076b5582085ea9498924776bacbb
